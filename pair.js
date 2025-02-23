@@ -81,11 +81,11 @@ router.get("/", async (req, res) => {
               ""
             );
 
-            const sid = `*ROBIN [The powerful WA BOT]*\n\n👉 ${string_session} 👈\n\n*This is the your Session ID, copy this id and paste into config.js file*\n\n*You can ask any question using this link*\n\n*wa.me/message/WKGLBR2PCETWD1*\n\n*You can join my whatsapp group*\n\n*https://chat.whatsapp.com/GAOhr0qNK7KEvJwbenGivZ*`;
+            const sid = `*ROBIN [The powerful WA BOT]*\n\n👉 ${string_session} 👈\n\n*This is the your Session ID, copy this id and paste into config.js file*\n\n*You can ask any question using this link*\n\n*94783314361*\n\n*You can join my whatsapp channel*\n\n*https://whatsapp.com/channel/0029Vb0rCUr72WU3uq0yMg42*`;
             const mg = `🛑 *Do not share this code to anyone* 🛑`;
             const dt = await RobinPairWeb.sendMessage(user_jid, {
               image: {
-                url: "https://raw.githubusercontent.com/Dark-Robin/Bot-Helper/refs/heads/main/autoimage/Bot%20robin%20WP.jpg",
+                url: "https://raw.githubusercontent.com/ransika2008/Img-2/refs/heads/main/High-resolution%203D%20render%2C%20silhouetted%20backlighting%2C%20soft%20dreamy%20atmosphere.%20Embossed%20gold%20text%20PINK%20QUEEN%20MD%20and%20CONNECTED%20SUCCESSFUL.%20Pastel%20rose%20pink%20background%2C%20golden%20crown%20and%20baroque%20flourishes.%20Hazy%2C%20soft%20light%2C%20light%20source%20behind%20subject.jpg",
               },
               caption: sid,
             });
